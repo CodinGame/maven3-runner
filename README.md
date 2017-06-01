@@ -10,9 +10,7 @@ At each play, it runs a specific test using the `mvn test -Dtest=XXX` command.
 To use this runner for your project, edit the `codingame.yml` file and add the following lines to your project:
 
 ```yaml
-    runner:
-      name: codingame/maven3-runner
-      version: 1.0.0-openjdk-8
+    runner: techio/maven3-runner:1.0.0-openjdk-8
 ```
 
 ## Example
